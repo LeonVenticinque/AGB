@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // Navigation laden
-    fetch("components/navbar.html")
+    fetch("AGB/components/navbar.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Navigation konnte nicht geladen werden.");
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // Footer laden
-    fetch("components/footer.html")
+    fetch("AGB/components/footer.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Footer konnte nicht geladen werden.");
