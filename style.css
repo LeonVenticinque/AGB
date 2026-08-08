@@ -14,10 +14,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-
     background: #fbf7f2;
     color: #34332f;
-
     line-height: 1.6;
 }
 
@@ -39,7 +37,6 @@ body {
 
     position: sticky;
     top: 0;
-
     z-index: 100;
 
     border-bottom: 1px solid #eee5de;
@@ -61,6 +58,550 @@ body {
 .navbar nav {
     display: flex;
     gap: 32px;
+}
+
+.navbar nav a {
+    color: #34332f;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    transition: 0.25s;
+}
+
+.navbar nav a:hover {
+    color: #b56f7b;
+}
+
+
+/* =========================
+   Hero
+========================= */
+
+.hero {
+    min-height: calc(100vh - 82px);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 70px;
+
+    padding: 70px 7%;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.subtitle {
+    color: #b56f7b;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+
+    margin-bottom: 16px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+
+    font-size: clamp(48px, 6vw, 78px);
+
+    font-weight: normal;
+
+    line-height: 1.05;
+
+    color: #34332f;
+
+    margin-bottom: 25px;
+}
+
+.hero-text > p:not(.subtitle) {
+    font-size: 18px;
+
+    color: #6d6a64;
+
+    max-width: 500px;
+
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   Hero Bild
+========================= */
+
+.hero-image {
+    height: 600px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 35px;
+}
+
+
+/* =========================
+   Buttons
+========================= */
+
+.button {
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background: #b56f7b;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #965966;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Galerie
+========================= */
+
+.gallery-section {
+    padding: 120px 7%;
+
+    background: #fffdfb;
+}
+
+.section-heading {
+    max-width: 650px;
+
+    margin: 0 auto 60px;
+
+    text-align: center;
+}
+
+.section-heading h2,
+.about h2,
+.contact h2 {
+    font-family: Georgia, serif;
+
+    font-size: clamp(36px, 4vw, 55px);
+
+    font-weight: normal;
+
+    line-height: 1.1;
+
+    color: #34332f;
+
+    margin-bottom: 20px;
+}
+
+.section-heading p:last-child {
+    color: #77736d;
+}
+
+
+/* =========================
+   Galerie
+========================= */
+
+.gallery {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+.flower-card {
+    height: 420px;
+
+    overflow: hidden;
+
+    border-radius: 24px;
+
+    background: #eee8e1;
+}
+
+.flower-card:nth-child(2) {
+    margin-top: 50px;
+}
+
+.flower-card:nth-child(4) {
+    margin-top: -50px;
+}
+
+.flower-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.flower-card:hover img {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   Über Bloomay
+========================= */
+
+.about {
+    background: #e8eee7;
+
+    padding: 120px 7%;
+
+    text-align: center;
+}
+
+.about > div {
+    max-width: 700px;
+
+    margin: auto;
+}
+
+.about p:not(.subtitle) {
+    color: #626861;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   Kontakt
+========================= */
+
+.contact {
+    padding: 120px 7%;
+
+    text-align: center;
+
+    background: #fbf7f2;
+}
+
+.contact p:not(.subtitle) {
+    color: #77736d;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+    background: #343c35;
+
+    color: white;
+
+    padding: 55px 7%;
+
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: Georgia, serif;
+
+    font-size: 29px;
+
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-bottom: 25px;
+}
+
+.footer-links a {
+    color: #f5f1eb;
+
+    text-decoration: none;
+
+    transition: 0.25s;
+}
+
+.footer-links a:hover {
+    color: #e3a5af;
+}
+
+footer p {
+    font-size: 13px;
+
+    opacity: 0.65;
+}
+
+
+/* =========================
+   Rechtliche Seiten
+========================= */
+
+.container {
+    max-width: 900px;
+
+    margin: 70px auto;
+
+    background: #fffdfb;
+
+    padding: 50px;
+
+    border-radius: 24px;
+
+    border: 1px solid #eee5de;
+
+    box-shadow: 0 8px 30px rgba(80, 60, 50, 0.06);
+}
+
+.container h1 {
+    text-align: center;
+
+    font-family: Georgia, serif;
+
+    font-size: clamp(40px, 5vw, 58px);
+
+    font-weight: normal;
+
+    line-height: 1.1;
+
+    color: #34332f;
+
+    margin-bottom: 15px;
+}
+
+.container .intro {
+    text-align: center;
+
+    color: #77736d;
+
+    margin-bottom: 45px;
+
+    font-size: 17px;
+}
+
+.container h2 {
+    font-family: Georgia, serif;
+
+    font-size: 29px;
+
+    font-weight: normal;
+
+    color: #b56f7b;
+
+    margin-top: 40px;
+
+    margin-bottom: 18px;
+
+    border-bottom: 1px solid #e8c9ce;
+
+    padding-bottom: 10px;
+}
+
+.container p {
+    color: #62605b;
+
+    margin-bottom: 16px;
+
+    line-height: 1.7;
+}
+
+.container ul {
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+    padding-left: 25px;
+}
+
+.container li {
+    color: #62605b;
+
+    margin-bottom: 9px;
+
+    line-height: 1.6;
+}
+
+.container strong {
+    color: #34332f;
+}
+
+
+/* =========================
+   AGB Abschlussbox
+========================= */
+
+.footer-box {
+    margin-top: 55px;
+
+    padding: 25px 30px;
+
+    text-align: center;
+
+    background: #f6eee9;
+
+    border-radius: 18px;
+
+    color: #b56f7b;
+
+    font-weight: 600;
+
+    border: 1px solid #ead8d1;
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .navbar nav {
+        gap: 18px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        padding: 60px 5%;
+    }
+
+    .hero-image {
+        height: 500px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flower-card:nth-child(2),
+    .flower-card:nth-child(4) {
+        margin-top: 0;
+    }
+
+    .container {
+        margin: 50px 25px;
+    }
+}
+
+
+/* =========================
+   Smartphone
+========================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        height: auto;
+
+        padding: 20px 5%;
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    .navbar nav {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 45px 5%;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-image {
+        height: 400px;
+    }
+
+    .gallery-section,
+    .about,
+    .contact {
+        padding: 80px 5%;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .flower-card {
+        height: 400px;
+    }
+
+    .flower-card:nth-child(2),
+    .flower-card:nth-child(4) {
+        margin-top: 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+    .container {
+        margin: 30px 15px;
+
+        padding: 30px 22px;
+
+        border-radius: 18px;
+    }
+
+    .container h1 {
+        font-size: 38px;
+    }
+
+    .container h2 {
+        font-size: 25px;
+    }
+
+    .container .intro {
+        font-size: 16px;
+    }
+
+    .footer-box {
+        padding: 22px 18px;
+    }
+}    gap: 32px;
 }
 
 .navbar nav a {
