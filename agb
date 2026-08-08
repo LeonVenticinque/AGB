@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bloomay – AGB</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        header {
+            background: white;
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: #d63384;
+            margin: 0 0 15px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background: #d63384;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #d63384;
+            margin-top: 35px;
+            border-bottom: 2px solid #f3c7dc;
+            padding-bottom: 8px;
+        }
+
+        .intro {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .footer-box {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            background: #fff4f8;
+            border-radius: 10px;
+            font-weight: bold;
+            color: #d63384;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px 15px;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌸 Bloomay</h1>
+
+    <nav>
+        <a href="index.html">Startseite</a>
+        <a href="agb.html">AGB</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="impressum.html">Impressum</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1>Allgemeine Bestell- und Abholbedingungen</h1>
+
+    <p class="intro">
+        Vielen Dank für deine Bestellung und dein Vertrauen in Bloomay! 🌸
+        <br><br>
+        Jeder Blumenstrauß wird individuell und mit viel Liebe zum Detail nach deiner Bestellung angefertigt.
+        Die Blumen werden speziell für deinen Auftrag frisch eingekauft, damit du stets die bestmögliche Qualität erhältst.
+    </p>
+
+    <h2>Stornierung</h2>
+
+    <p>
+        Da die Blumen individuell für deine Bestellung beschafft werden, ist eine kostenfreie Stornierung nur bis spätestens
+        <strong>3 Tage vor dem vereinbarten Abholtermin</strong> möglich.
+    </p>
+
+    <p>
+        Bei einer Stornierung innerhalb von 3 Tagen vor dem vereinbarten Abholtermin verfällt die geleistete Anzahlung,
+        da die Blumen zu diesem Zeitpunkt bereits individuell für deinen Auftrag bestellt bzw. eingekauft wurden.
+    </p>
+
+    <h2>Frische und Haltbarkeit</h2>
+
+    <p>
+        Blumen sind ein Naturprodukt und somit verderbliche Ware. Die Haltbarkeit hängt unter anderem von der jeweiligen
+        Blumensorte sowie der richtigen Pflege nach der Abholung ab.
+    </p>
+
+    <p>Damit du möglichst lange Freude an deinem Blumenstrauß hast, empfehlen wir:</p>
+
+    <ul>
+        <li>eine saubere Vase zu verwenden,</li>
+        <li>täglich frisches Wasser einzufüllen,</li>
+        <li>die Stiele regelmäßig schräg anzuschneiden,</li>
+        <li>den Strauß nicht in direkter Sonneneinstrahlung, an Heizkörpern oder in unmittelbarer Nähe zu Obst zu platzieren.</li>
+    </ul>
+
+    <p>
+        Eine bestimmte Haltbarkeitsdauer kann daher nicht garantiert werden.
+    </p>
+
+    <h2>Farb- und Blumenauswahl</h2>
+
+    <p>
+        Wir legen großen Wert darauf, jeden Strauß so anzufertigen, wie er bestellt wurde.
+        Da Blumen ein Naturprodukt sind und saisonalen Schwankungen unterliegen, kann es vorkommen,
+        dass einzelne Blumen oder Farbtöne nicht in gleicher Qualität oder Verfügbarkeit erhältlich sind.
+    </p>
+
+    <p>
+        In diesem Fall behalten wir uns vor, diese durch gleichwertige Alternativen zu ersetzen.
+        Selbstverständlich achten wir darauf, dass Stil, Farbkonzept und Gesamtwirkung deines Straußes erhalten bleiben.
+    </p>
+
+    <h2>Individuelle Anfertigung</h2>
+
+    <p>
+        Jeder Blumenstrauß wird von Hand gefertigt und ist ein Unikat.
+        Leichte Abweichungen von Beispielbildern oder Inspirationsfotos sind daher möglich
+        und stellen keinen Reklamationsgrund dar.
+    </p>
+
+    <h2>Verbindliche Abholtermine</h2>
+
+    <p>
+        Der gemeinsam vereinbarte Abholtermin ist verbindlich.
+        Da jeder Blumenstrauß individuell angefertigt wird und wir unsere Arbeitsabläufe entsprechend planen,
+        bitten wir dich, den vereinbarten Termin einzuhalten.
+    </p>
+
+    <p>
+        Solltest du dich verspäten oder früher als vereinbart erscheinen,
+        können wir nicht garantieren, dass dein Blumenstrauß bereits fertiggestellt ist
+        oder sofort übergeben werden kann.
+    </p>
+
+    <p>
+        Falls sich deine Abholzeit ändern sollte, gib uns bitte möglichst frühzeitig Bescheid.
+        Gemeinsam finden wir – wenn möglich – eine passende Lösung.
+    </p>
+
+    <h2>Nicht abgeholte Bestellungen</h2>
+
+    <p>
+        Bestellungen, die ohne vorherige Absprache nicht zum vereinbarten Termin abgeholt werden,
+        gelten als zur Abholung bereitgestellt.
+    </p>
+
+    <p>
+        Da Blumen verderbliche Ware sind und ihre Qualität mit der Zeit nachlässt,
+        besteht in diesem Fall kein Anspruch auf eine Erstattung der geleisteten Zahlung
+        oder auf eine kostenfreie Neuanfertigung.
+    </p>
+
+    <h2>Reklamationen</h2>
+
+    <p>
+        Sollte trotz größter Sorgfalt einmal Anlass zur Beanstandung bestehen,
+        bitten wir dich, uns innerhalb von <strong>24 Stunden</strong> nach der Abholung
+        zu kontaktieren und – wenn möglich – aussagekräftige Fotos beizufügen.
+    </p>
+
+    <p>
+        So können wir den Sachverhalt prüfen und gemeinsam mit dir eine faire Lösung finden.
+    </p>
+
+    <h2>Bestellung durch Minderjährige</h2>
+
+    <p>
+        Bestellungen können nur von Personen aufgegeben werden, die das 18. Lebensjahr vollendet haben
+        oder mit Zustimmung ihrer gesetzlichen Vertreter handeln.
+    </p>
+
+    <p>
+        Mit deiner Bestellung bestätigst du, dass diese Voraussetzung erfüllt ist.
+    </p>
+
+    <h2>Eigentumsvorbehalt</h2>
+
+    <p>
+        Der Blumenstrauß bleibt bis zur vollständigen Bezahlung Eigentum von Bloomay.
+    </p>
+
+    <h2>Lieferengpässe und höhere Gewalt</h2>
+
+    <p>
+        Sollten unvorhersehbare Ereignisse – beispielsweise Lieferengpässe,
+        wetterbedingte Ernteausfälle oder Qualitätsmängel beim Großhandel –
+        dazu führen, dass einzelne Blumen oder Materialien nicht verfügbar sind,
+        behalten wir uns vor, diese durch gleichwertige Alternativen zu ersetzen.
+    </p>
+
+    <p>
+        Selbstverständlich achten wir darauf, dass Stil, Farbkonzept und Gesamtwirkung deines Straußes erhalten bleiben.
+    </p>
+
+    <p>
+        Sollte eine Anfertigung ausnahmsweise nicht möglich sein,
+        wird eine bereits geleistete Anzahlung selbstverständlich vollständig erstattet.
+    </p>
+
+    <div class="footer-box">
+        Mit deiner Bestellung erklärst du dich mit den oben genannten
+        Bestell- und Abholbedingungen einverstanden.
+        <br><br>
+        Vielen Dank für dein Vertrauen. Wir freuen uns darauf,
+        deinen individuellen Blumenstrauß mit viel Liebe zum Detail für dich anzufertigen! 🌸
+    </div>
+
+</div>
+
+</body>
+</html>
