@@ -4,63 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bloomay</title>
+    <title>Blumenatelier</title>
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f7f7f7;
-            color: #333;
-            margin: 0;
-            line-height: 1.7;
-        }
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        header {
-            background: white;
-            padding: 25px 20px;
-            text-align: center;
-            border-bottom: 1px solid #eee;
-        }
+<body>
 
-        header h1 {
-            color: #d63384;
-            margin: 0 0 15px;
-        }
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            Blumenatelier
+        </div>
 
-        nav {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+        <nav>
+            <a href="#start">Startseite</a>
+            <a href="#straeusse">Unsere Sträuße</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
 
-        nav a {
-            text-decoration: none;
-            background: #d63384;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 8px;
-            transition: opacity 0.2s;
-        }
 
-        nav a:hover {
-            opacity: 0.8;
-        }
+    <!-- Startbereich -->
+    <section id="start" class="hero">
 
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 40px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            text-align: center;
-        }
+        <div class="hero-text">
+            <p class="subtitle">Blumen mit Persönlichkeit</p>
 
-        .welcome {
-            font-size: 18px;
-        }
+            <h1>
+                Dein persönlicher<br>
+                Blumenstrauß.
+            </h1>
 
+            <p>
+                Individuell zusammengestellte Sträuße,
+                mit Liebe und nach deinen Wünschen gestaltet.
+            </p>
+
+            <a href="#straeusse" class="button">
+                Unsere Sträuße entdecken
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="bilder/hero.jpg" alt="Schöner Blumenstrauß">
+        </div>
+
+    </section>
+
+
+    <!-- Galerie -->
+    <section id="straeusse" class="gallery-section">
+
+        <div class="section-heading">
+            <p class="subtitle">Unsere Arbeit</p>
+
+            <h2>
+                Bereits gestaltete Sträuße
+            </h2>
+
+            <p>
+                Jeder Strauß ist einzigartig und wird individuell
+                nach deinen Vorstellungen zusammengestellt.
+            </p>
+        </div>
+
+
+        <div class="gallery">
+
+            <div class="flower-card">
+                <img src="bilder/strauss1.jpg" alt="Blumenstrauß 1">
+            </div>
+
+            <div class="flower-card">
+                <img src="bilder/strauss2.jpg" alt="Blumenstrauß 2">
+            </div>
+
+            <div class="flower-card">
+                <img src="bilder/strauss3.jpg" alt="Blumenstrauß 3">
+            </div>
+
+            <div class="flower-card">
+                <img src="bilder/strauss4.jpg" alt="Blumenstrauß 4">
+            </div>
+
+            <div class="flower-card">
+                <img src="bilder/strauss5.jpg" alt="Blumenstrauß 5">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Über uns -->
+    <section class="about">
+
+        <div>
+            <p class="subtitle">Individuell für dich</p>
+
+            <h2>
+                Blumen, die zu dir passen.
+            </h2>
+
+            <p>
+                Ob Geburtstag, Hochzeit, Jahrestag oder einfach
+                als kleine Aufmerksamkeit – wir gestalten
+                deinen Blumenstrauß ganz nach deinen Vorstellungen.
+            </p>
+
+            <a href="#kontakt" class="button">
+                Kontakt aufnehmen
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="contact">
+
+        <p class="subtitle">Kontakt</p>
+
+        <h2>
+            Du hast eine Idee für deinen Strauß?
+        </h2>
+
+        <p>
+            Schreib uns gerne und erzähl uns, was du dir vorstellst.
+        </p>
+
+        <a href="mailto:info@dein-blumenladen.de" class="button">
+            E-Mail schreiben
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            Blumenatelier
+        </div>
+
+        <div class="footer-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+            <a href="agb.html">AGB</a>
+        </div>
+
+        <p>
+            © 2026 Blumenatelier
+        </p>
+
+    </footer>
+
+</body>
+</html>
         footer {
             text-align: center;
             padding: 30px;
