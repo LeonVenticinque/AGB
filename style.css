@@ -809,4 +809,135 @@ footer p {
 
         gap: 10px;
     }
+   /* =========================
+   Rechtliche Seiten
+========================= */
+
+.container {
+    max-width: 900px;
+
+    margin: 70px auto;
+
+    background: #fffdfb;
+
+    padding: 50px;
+
+    border-radius: 24px;
+
+    border: 1px solid #eee5de;
+
+    box-shadow: 0 8px 30px rgba(80, 60, 50, 0.06);
+}
+
+.container h1 {
+    text-align: center;
+
+    font-family: Georgia, serif;
+
+    font-size: clamp(40px, 5vw, 58px);
+
+    font-weight: normal;
+
+    line-height: 1.1;
+
+    color: #34332f;
+
+    margin-bottom: 15px;
+}
+
+.container .intro {
+    text-align: center;
+
+    color: #77736d;
+
+    margin-bottom: 45px;
+
+    font-size: 17px;
+}
+
+.container h2 {
+    font-family: Georgia, serif;
+
+    font-size: 29px;
+
+    font-weight: normal;
+
+    color: #b56f7b;
+
+    margin-top: 40px;
+
+    margin-bottom: 18px;
+
+    border-bottom: 1px solid #e8c9ce;
+
+    padding-bottom: 10px;
+}
+
+.container p {
+    color: #62605b;
+
+    margin-bottom: 16px;
+
+    line-height: 1.7;
+}
+
+.container ul {
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+    padding-left: 25px;
+}
+
+.container li {
+    color: #62605b;
+
+    margin-bottom: 9px;
+
+    line-height: 1.6;
+}
+
+.container .footer {
+    margin-top: 55px;
+
+    padding: 22px;
+
+    text-align: center;
+
+    background: #f6eee9;
+
+    border-radius: 16px;
+
+    font-weight: 600;
+
+    color: #b56f7b;
+}
+
+
+/* =========================
+   Rechtliche Seiten – Mobil
+========================= */
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 30px 15px;
+
+        padding: 30px 22px;
+
+        border-radius: 18px;
+    }
+
+    .container h1 {
+        font-size: 38px;
+    }
+
+    .container h2 {
+        font-size: 25px;
+    }
+
+    .container .intro {
+        font-size: 16px;
+    }
+}
 }
