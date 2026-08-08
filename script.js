@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // Navigation laden
-    fetch("AGB/components/navbar.html")
+    fetch("components/navbar.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Navigation konnte nicht geladen werden.");
@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("navbar").innerHTML = data;
         })
         .catch(error => {
-            console.error(error);
+            console.error("Navbar-Fehler:", error);
         });
 
 
     // Footer laden
-    fetch("AGB/components/footer.html")
+    fetch("components/footer.html")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Footer konnte nicht geladen werden.");
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("footer").innerHTML = data;
         })
         .catch(error => {
-            console.error(error);
+            console.error("Footer-Fehler:", error);
         });
 
 });
